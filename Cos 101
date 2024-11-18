@@ -1,0 +1,29 @@
+#calculate force
+
+mass=int(input('input your value='))
+acceleration=int(input('input the acceleration='))
+print(mass*acceleration)
+
+#calculate circumfrence of a circle
+pi=3.147
+radius=int(input('input the radius'))
+circumference=2*pi*radius
+print(circumference)
+
+#calculate area of a square
+length=int(input('input your lenght'))
+breadth=int(input('input you breadth'))
+area=length*breadth
+
+
+#calculate area of circle
+pi=3.147
+radius=int(input('please enter radius'))
+area=pi*radius**2
+print(area)
+
+#calculate volume of cone
+pi=3.147
+radius=int(input('inpiut radius of the cone'))
+h=int(input('inpiut radius of the cone'))
+volume=1/3*pi*radius**2*h
